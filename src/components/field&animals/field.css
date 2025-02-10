@@ -1,0 +1,86 @@
+.field{
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.field-box {
+    width: 600px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.pond img,
+.hill img {
+    width: 650px;
+    object-fit: fill;
+    height: 500px;
+}
+.pond, .hill {
+    width: 700px;
+    height: 500px;
+    position: relative;
+}
+
+.animal-field {
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    bottom: 100px;
+    left: 0;
+}
+
+.animal-field2 {
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    bottom: 150px;
+    left: 0;
+}
+
+.animal {
+    display: flex;
+   justify-content: center;
+}
+
+.animal img {
+    width: 100px;
+    height: 100px;
+    object-fit: fill;
+    cursor: pointer;
+
+}
+.animal img:hover {
+    opacity: 0.7;
+}
+
+.animal-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.animal-box p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.animal-buttons {
+    display: flex;
+    gap: 2px;
+}
+.animal-buttons button {
+    font-size: 10px;
+}
